@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ec3838;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container {
+    background: #b39f9f;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 750px;
+    height: auto;
+    margin: 40px auto;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #8b6a6a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 20px auto 0 auto; ;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 #4351bb, 4px 4px 0 #ffde00;
+    color: #ffde00;
+    border: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+#search-button {
+    background-color: #6b56e2;
+    color: #e2dddd;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px auto;
+}
+
+
+#search-button:hover {
+    background-color: #e2dddd;
+    color: #6b56e2;
+}
